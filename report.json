@@ -1,0 +1,25 @@
+[
+  {
+    "description": "Typescript Google Search",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": false,
+        "errorMsg": "expected 'Hello Angular' to equal 'Hello Angular1'",
+        "stackTrace": "AssertionError: expected 'Hello Angular' to equal 'Hello Angular1'"
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": false
+      }
+    ],
+    "duration": 5419383572
+  }
+]

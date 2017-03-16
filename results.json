@@ -1,0 +1,168 @@
+[
+  {
+    "elements": [
+      {
+        "id": "to-search-typescript-in-google;typescript-google-search",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Typescript Google Search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 564951
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\serenity-js\\src\\serenity-cucumber\\stage_cue.ts:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 391359
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\cucumber-tsflow\\src\\BindingDecorator.ts:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on start page",
+            "result": {
+              "status": "passed",
+              "duration": 112158704
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\serenity-js\\src\\serenity-cucumber\\webdriver_synchroniser.ts:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "\"Hello Angular1\" should be the title",
+            "result": {
+              "status": "failed",
+              "duration": 255864930,
+              "error_message": "AssertionError: expected 'Hello Angular' to equal 'Hello Angular1'"
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\serenity-js\\src\\serenity-cucumber\\webdriver_synchroniser.ts:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 649738
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\cucumber-tsflow\\src\\BindingDecorator.ts:87"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-search-typescript-in-google",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "To search typescript in google",
+    "tags": [],
+    "uri": "C:\\Git\\angular2\\angular2-cd\\e2e\\features\\app.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "use-serentiy-js-for-acceptance-test;typescript-google-search",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Typescript Google Search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 316390
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\serenity-js\\src\\serenity-cucumber\\stage_cue.ts:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 156187
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\cucumber-tsflow\\src\\BindingDecorator.ts:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "\"I\" am on first page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "\"I\" still on first page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "\"Hello Angular\" should visible as the title",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 102637
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Git\\angular2\\angular2-cd\\node_modules\\cucumber-tsflow\\src\\BindingDecorator.ts:87"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "use-serentiy-js-for-acceptance-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Use serentiy js for acceptance test",
+    "tags": [],
+    "uri": "C:\\Git\\angular2\\angular2-cd\\e2e\\features\\testa.feature"
+  }
+]
