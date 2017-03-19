@@ -36,10 +36,6 @@ exports.config = {
   // Base URL for application server
   baseUrl: 'http://localhost:8080',
 
-  onPrepare: function () {
-    protractor_1.browser.manage().window().maximize();
-  },
-
   cucumberOpts: {
     require: ['e2e/steps/*.js', 'e2e/support/*.js'],
     format: 'json:results.json',
