@@ -18,7 +18,7 @@ var _ = require('lodash');
 
 
 exports.config = {
-  directConnect: false,
+  directConnect: true,
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
