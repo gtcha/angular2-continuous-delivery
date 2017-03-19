@@ -18,7 +18,8 @@ var _ = require('lodash');
 
 
 exports.config = {
-  directConnect: true,
+  directConnect: false,
+  seleniumAddress: 'http://localhost:4444/wd/hub',
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
