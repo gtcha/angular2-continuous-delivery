@@ -19,7 +19,8 @@ var _ = require('lodash');
 
 exports.config = {
   directConnect: false,
-  seleniumAddress: 'http://localhost:4444/wd/hub',
+  seleniumAddress: 'http://localhost:4422/wd/hub',
+  seleniumJar:'node_modules/protractor/node_modules/webdriver/selenium/selenium-server-standalone-2.53.1.jar',
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
